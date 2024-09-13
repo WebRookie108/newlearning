@@ -31,7 +31,11 @@ function App() {
                   Link
                 </a>
               </li>
-
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="/">
+                  Home222222222222
+                </a>
+              </li>
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
