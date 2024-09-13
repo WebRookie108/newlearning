@@ -1,4 +1,5 @@
 import "./App.css";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
                 </a>
               </li>
 
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
                   href="/"
@@ -62,7 +63,7 @@ function App() {
                     </a>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link disabled" aria-disabled="true">
                   Disabled
@@ -83,6 +84,7 @@ function App() {
           </div>
         </div>
       </nav>
+      <NavBar />
     </>
   );
 }
